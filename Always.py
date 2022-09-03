@@ -32,6 +32,7 @@ print(b)  # abc
 
 
 # 파이썬의 기본 재귀 깊이 제한 1000
+# 재귀 최대 깊이 설정
 import sys
 sys.setrecursionlimit(10**9)
 input = sys.stdin.readline
