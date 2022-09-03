@@ -29,3 +29,9 @@ a = ['a','b','c']
 b = ''.join(a)   #''안엔 구분자, 마음껏 바꿔도 됨
 print(a)  # ['a', 'b', 'c']
 print(b)  # abc
+
+
+# 파이썬의 기본 재귀 깊이 제한 1000
+import sys
+sys.setrecursionlimit(10**9)
+input = sys.stdin.readline
